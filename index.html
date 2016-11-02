@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Pacifico|Raleway'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <form id="search-wiki-form">
+  <!-- https://en.wikipedia.org/wiki/Special:Random -->
+  <div class="input-group">
+    <span class="input-group-addon">
+      <i class="fa fa-search"></i>
+    </span>
+    <input type="text" name="search-text" placeholder="Search for..." class="form-control" required/>
+    <span class="input-group-btn">
+      <button class="btn btn-primary" type="submit">Go!</button>
+    </span>
+  </div>
+  <button class="btn btn-primary" id="random-button" type="button">
+  <i class="fa fa-random" aria-hidden="true"></i>
+  Random</button>
+
+</form>
+<div class="container-fluid" id="div-articles">
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+      <script src="js/index.js"></script>
+
+</body>
+</html>

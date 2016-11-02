@@ -1,0 +1,44 @@
+body {
+  margin-top:50px;
+  font-family: 'Raleway', cursive;
+  font-weight: medium;
+}
+
+.btn {
+  font-family: 'Pacifico', cursive;
+}
+
+#random-button {
+  margin:15px;  
+}
+
+#search-wiki-form {
+  margin: 0 auto;
+  text-align: center;
+  width:60%
+}
+
+#div-articles div .col-md-4 {
+  width: 30%;
+  min-height: 300px;
+  border-style: solid;
+  border-width: 4px 2px 2px 2px;
+  margin: 15px;
+  padding: 10px; 
+}
+
+#div-articles div .col-md-4:hover {
+  border-width: 4px 3px 3px 3px;
+}
+
+#div-articles .col-md-4:nth-of-type(3n + 0) {
+  border-color: #3366ff #B0C4DE #B0C4DE #B0C4DE;  
+}
+
+#div-articles .col-md-4:nth-of-type(3n + 1) {
+  border-color: yellow #B0C4DE #B0C4DE #B0C4DE;  
+}
+
+#div-articles .col-md-4:nth-of-type(3n + 2) {
+  border-color: SpringGreen #B0C4DE #B0C4DE #B0C4DE;  
+}
